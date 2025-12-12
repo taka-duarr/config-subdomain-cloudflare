@@ -1,4 +1,4 @@
-cloudflared tunnel route dns 0daf7e99-69d0-4447-9696-5d0d9db2367c api.zatwasdead.my.id
+cloudflared tunnel route dns your tunnel_id your domain.zatwasdead.my.id
 
 nano /etc/cloudflared/config.yml
 
