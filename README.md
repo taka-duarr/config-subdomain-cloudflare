@@ -34,6 +34,7 @@ ss -tlnp | grep 8083
 nginx -t
 systemctl restart nginx
 
+cloudflared tunnel route dns 0daf7e99-69d0-4447-9696-5d0d9db2367c nganimeapi.zatwasdead.my.id
 
 systemctl restart cloudflared
 systemctl restart nginx
